@@ -1,0 +1,52 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:url(count.jpg)center/cover no-repeat;;
+
+    /* background-size: cover;
+    background-repeat: no-repeat;*/
+    text-transform: capitalize;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif; 
+
+}
+
+.container{
+    flex: 0 0 70;
+    text-align: center;
+    border: 3px solid grey;
+    padding: 1rem;
+    box-shadow: 3px 3px 10px 10px hotpink;
+    font-weight: bolder;
+
+
+}
+.counter{
+    font-size: 6rem
+
+}
+.btn{
+    text-transform: capitalize;
+    background-color: #fff;
+    border-radius: 20%;
+    outline: none;
+    padding: 1rem ;
+    font-size: 2rem;
+    margin: 0.5rem,0.25rem;
+    border: 3px solid #f15055;
+    box-shadow: 0px 5px yellowgreen
+    
+
+
+
+}
+.btn:hover{
+    background-color: #4caf50;
+    color: white;
+
+}
+.btn:active{
+    box-shadow: none;
+}
